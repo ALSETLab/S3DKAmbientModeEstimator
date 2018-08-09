@@ -59,11 +59,24 @@ Transfer Function options: Create by inputting a set of poles and zeros, or a da
 
 The resulting waveform is passed to Preprocessing.
 
+Note: Real time data is first shown before preprocessing occurs.
 ## Preprocessing
 
 Detrends the input waveform, passes it through a low-pass filter, then downsamples it in Downsample.vi. Passes resulting waveform
-to Compute AR Coeffs.
+to Compute AR Coeffs AND Get Spectrum.
 
 ## Compute AR/MA Coeffs
 
+1. Passes the preprocessed waveform into a series of subVIs, extracting the AR and MA coefficients (displayed as a transfer function) in accordance with the AR and MA orders that were input by the user.
+
+2. Converts back to the s-domain and finds complex poles, damping ratios and frequencies for each mode.
+
+3. Records and displays damping ratio evolution throughout entire procedure (for each mode). Also determines the mean and standard deviation of each set of damping ratio history (per mode) and indicates whether it is above or below the "Std Threshold," using smiley.vi.
+
+
+## Get Spectrum
+
+Obtains a spectrum (amplitude vs. frequency) and 3D spectrogram (amplitude vs. frequency vs. time).
+
+Tip: User can see the spectrum graph on the spectrogram by hitting the bottom-right-most button on the spectrogram.
 
