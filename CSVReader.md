@@ -31,6 +31,4 @@ ID's are extracted from the data and placed in their respective Terminal Data cl
 
 *This program will not run if an error is input into the program or if an error occurs from Read Delimited Spreadsheet.vi.*
 
-*Also note that this differs from the operation in Version 2.0, where its version of Format CSV operates on one row per occurrence. In 
-Main.vi Version 1.1, if the CSV option is selected, Format CSV will run one time and the data will be retained for the rest of the run of
-Main.vi (v1.1).*
+*Also note that this differs from the operation in Version 2.0, where its version of the CSV Reader (there entitled Format CSV) operates on one row per occurrence. In Main.vi Version 1.1, if the CSV option is selected, CSV Reader.vi will run one time and the data will be retained for the rest of the run of Main.vi (v1.1).*
