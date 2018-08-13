@@ -1,5 +1,5 @@
 # Conversion from Main v1.1 to Main v2.0 
-## **Currently Incomplete - see bold text for proposed changes**
+## **(Currently Incomplete - see bold text for proposed changes)**
 
 Version 2.0 is based on the general PMU Application template created by Maxime Baudette (https://github.com/MaximeBaudette).
 
