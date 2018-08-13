@@ -1,4 +1,4 @@
-## Conversion from Main v1.1 to Main v2.0 **Currently Incomplete - see bold text for proposed changes**
+# Conversion from Main v1.1 to Main v2.0 **Currently Incomplete - see bold text for proposed changes**
 
 Version 2.0 is based on the general PMU Application template created by Maxime Baudette (https://github.com/MaximeBaudette).
 
@@ -7,12 +7,12 @@ instead of being opened from another VI.
 
 This guide will explain the changes specific to the Mode Estimator application.
 
-# User Interface
+## User Interface
 
 The User Interface now fits in one window, with all displays in one tab control. The user can still switch between tabs to view different
 data displays. Also, user selections now occur via pop-up menus that conveniently close upon user selection confirmation.
 
-# Acquisition Loop
+## Acquisition Loop
 
 The PRL Buffer works similar to how it does in v1.1. Obtaining CSV data now works in a similar fashion to it, whereas in v1.1 all of the
 data was used at once for the entire process. In v2.0, the CSV data is buffered one row at a time to create a stream of data.
@@ -26,7 +26,7 @@ InitializeCSV.vi, as it does in Maxime's base template, ConfigureCSV.vi occurs *
 frame. I have already implemented a parcel length output in FormatCSV.vi, but it needs to be able to override the user input parcel length
 value.**
 
-# Algorithm Loop
+## Algorithm Loop
 
 The algorithm loop now contains the final 3 stages of v1.1 as its process. 
 
