@@ -10,7 +10,7 @@ This guide will explain the changes specific to the Mode Estimator application.
 
 ## User Interface
 
-The User Interface now fits in one window, with all displays in one tab control. The user can still switch between tabs to view different
+The User Interface now fits in one window, with all displays in one tab control. The user can still switch between tabs to view different 
 data displays. Also, user selections now occur via pop-up menus that conveniently close upon user selection confirmation.
 
 ## Acquisition Loop
@@ -29,7 +29,7 @@ value.**
 
 ## Algorithm Loop
 
-The algorithm loop now contains the final 3 stages of v1.1 as its process. 
+The algorithm loop now contains the final 3 stages of v1.1 as its main process. 
 
 **The signal selection currently does not work correctly. It should be replaced with the temporary "Mode Est Acquire Data.vi" (should also 
 be renamed). In addition, the "Phase Comparison" selection should be updated to work with this template. To begin, I have made an output of
