@@ -37,7 +37,7 @@ Outputs: Timestamps - date/time of samples taken, Phasor Data - voltage/current/
 frequency or d(Frequency)/dt - user selection
 
 *Note: the CSV file will be read only once. The data will continue in the loop. New terminals can be selected, but 
-in order to input a new file, the VI must be restarted.
+in order to input a new file, the VI must be restarted.*
 
 2. Formats the data to match the user's signal selection.
 
