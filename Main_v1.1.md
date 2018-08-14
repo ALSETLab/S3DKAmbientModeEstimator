@@ -73,6 +73,8 @@ to Compute AR Coeffs AND Get Spectrum.
 
 3. Records and displays damping ratio evolution throughout entire procedure (for each mode). Also determines the mean and standard deviation of each set of damping ratio history (per mode) and indicates whether it is above or below the "Std Threshold," using smiley.vi.
 
+*Note: For the CSV acquisition option, due to the way the acquisition is structured, the damping ratio standard deviation will be close
+to zero, which is inaccurate.*
 
 ## Get Spectrum
 
